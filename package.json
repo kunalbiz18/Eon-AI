@@ -1,0 +1,14 @@
+{
+  "name": "chatbot-backend",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "node",
+    "python"
+  ],
+  "scripts": {
+    "start": "npm -w node run start",
+    "dev": "npm -w node run dev"
+  }
+}
+

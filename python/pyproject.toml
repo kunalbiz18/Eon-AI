@@ -1,0 +1,18 @@
+[project]
+name = "agno-service"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi~=0.115.0",
+  "uvicorn[standard]~=0.30.0",
+  "pydantic~=2.8.0",
+  "sse-starlette~=2.1.3",
+  "python-dotenv~=1.0.1",
+  "httpx~=0.27.0",
+  "agno"
+]
+
+[tool.uvicorn]
+host = "0.0.0.0"
+port = 8000
+
